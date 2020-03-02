@@ -1,11 +1,30 @@
----
-output:
-  pdf_document: default
-  html_document: default
+There were 3 different tasks to this project:<br/>
+Part 1: Part-of-speech tagging<br/>
+Natural language processing (NLP) is an important research area in articial intelligence, dating back to at
+least the 1950's. A basic problems in NLP is part-of-speech tagging, in which the goal is to mark every word
+in a sentence with its part of speech (noun, verb, adjective, etc.). This is a rst step towards extracting
+semantics from natural language text.<br/>
+
+Part 2: Code breaking<br/>
+You've intercepted a secret message that is encrypted using both of two techniques. In Replacement,
+each letter of the alphabet is replaced with another letter of the alphabet. (For example, all a's may have
+been replaced with f's, b's with z's, etc.) Unfortunately, we don't know the mapping that was used. In
+Rearrangement, the order of the characters is scrambled. How can we decrypt a document without knowing the encryption tables?<br/>
+
+Part 3: Spam classication<br/>
+Let's consider a straightforward document classifcation problem: deciding whether or not an e-mail is spam.
+We'll use a bag-of-words model, which means that we'll represent a document in terms of just an unordered
+\bag" of words instead of modeling anything about the grammatical structure of the document. If, for
+example, there are 100,000 words in the English language, then a document can be represented as a 100,000-
+dimensional vector, where the entries in the vector corresponds to a binary value 1 if the word appears
+in the document and 0 otherwise.<br/>
+
+
+
 <h2>Part 1 :</h2><br/>
 
 Goal : 
-Here , our goal was to predict tags for the given model : simplified bayesian network , Viterbi and mcmc(gib’s sampling ). And calculate their respective accuracy and return their log posterior probability . 
+Here , our goal was to predict pos for each of the word in a sentence using a simplified bayesian network , Viterbi and mcmc(gib’s sampling ). And calculate their respective accuracy and return their log posterior probability . 
 
 Method : 
 
